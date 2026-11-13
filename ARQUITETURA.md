@@ -31,8 +31,6 @@
 
 ## 3. Mudanças no Gerenciamento de Estado
 
-- **setState removidos das views:** [liste aqui os que existiam no DartPad,
-  ex.: o que controlava a lista de documentos e o resultado de login/cadastro].
 - **setState mantido:** `_mostrarSenha` (login e cadastro) continua com
   `setState`, por ser estado puramente visual e local da tela.
 - **Estado nos ViewModels (ChangeNotifier):** `DocumentosViewModel` guarda
